@@ -11,8 +11,8 @@ class NotesContainer extends Component {
     this.state = {
       notes: [],
       editingNoteId: null,
-      notification: '', //empty before
-      transitionIn: true //false
+      notification: '',
+      transitionIn: false 
     }
   }
 
